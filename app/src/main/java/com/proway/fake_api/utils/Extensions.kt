@@ -9,3 +9,4 @@ fun AppCompatActivity.hideKeyboard() {
         window.context.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
     imm.hideSoftInputFromWindow(window.decorView.windowToken, 0)
 }
+

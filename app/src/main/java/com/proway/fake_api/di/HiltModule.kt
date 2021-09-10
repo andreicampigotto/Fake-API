@@ -17,6 +17,6 @@ object HiltModule {
     @Provides
     fun provideProductService(): ProductService = RetrofitBuilder.getProductServices()
 
-    @Provides
-    fun provideProductRepository(): ProductRepository = ProductRepository()
+//    @Provides
+//    fun provideProductRepository(): ProductRepository = ProductRepository().
 }
